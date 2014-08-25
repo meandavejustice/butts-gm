@@ -1,0 +1,21 @@
+{
+  "name": "butts-gm",
+  "version": "1.0.1",
+  "description": "place ascii butts onto an image buffer",
+  "main": "index.js",
+  "dependencies": {
+    "butts": "^1.1.0",
+    "gm": "^1.16.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "meandave",
+  "license": "MIT",
+  "keywords": [
+    "butts",
+    "gm",
+    "image",
+    "ascii"
+  ]
+}
