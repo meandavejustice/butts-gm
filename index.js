@@ -17,13 +17,14 @@ module.exports = function(buf, cb) {
       width = size.width
       height = size.width
       fontSize = Math.floor(width / 10)
-      x = Math.floor(width / 4)
-      y = Math.floor(width / 3)
-      this.fontSize(fontSize).drawText(x, y, bottom.toString()).toBuffer(function(err, faced) {
+      x = Math.floor(width / 6)
+      y = Math.floor(width / 4)
+      var gstring = bottom.toString().replace(' ', '\ ');
+      this.fontSize(fontSize).drawText(x, y, gstring).toBuffer(function(err, buttified) {
         if (err) {
           cb(err)
         }
-        cb (null, faced)
+        cb (null, buttified)
       })
     })
   })

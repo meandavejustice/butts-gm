@@ -1,6 +1,6 @@
 {
   "name": "butts-gm",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "place ascii butts onto an image buffer",
   "main": "index.js",
   "dependencies": {
